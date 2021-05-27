@@ -38,7 +38,7 @@ async function init() {
     required: false,
   });
 
-  const skipBackportCheck = core.getInput('skip_backport_check_label', {
+  const skipBackportCheck = core.getInput('skip_backport_check', {
     required: false,
   });
 
